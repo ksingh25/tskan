@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Experiments outputs
+experiments/models/
+experiments/results_*.csv
+tskan/model/
+
+# Deep learning checkpoints / model exports
+*.pth
+*.pt
+
+# Data lives in the private companion repo (tskan-data) — never commit it here
+data/
+
+# KAN.plot() byproducts (regenerated when running the TSKAN notebooks)
+figures/sp_*.png
+figures/act_*.csv
+
+# Misc
+.DS_Store
+output/
